@@ -14,7 +14,7 @@ module.exports = (env, options) => {
         module: {
             rules: [
                 {
-                    test: /\.(js|jsx)$/,
+                    test: /\.jsx?$/,
                     exclude: /node_modules/,
                     use: ['babel-loader']
                 },
@@ -47,7 +47,8 @@ module.exports = (env, options) => {
         config.devServer = {
             hot: true, // 서버에서 HMR을 켠다.
             host: '0.0.0.0', // 디폴트로는 "localhost" 로 잡혀있다. 외부에서 개발 서버에 접속해서 테스트하기 위해서는 '0.0.0.0'으로 설정해야 한다.
-            contentBase: './dist', // 개발서버의 루트 경로
+            disableHostCheck: true,
+            contentBase: path.resolve(__dirname, 'dist'), // 개발서버의 루트 경로
             stats: {
                 color: true
             }
