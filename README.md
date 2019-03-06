@@ -3,8 +3,3 @@
 <p>
   React Boilerplate uses <a href="https://facebook.github.io/react/">React</a>, <a href="https://github.com/reactjs/redux">Redux</a>, <a href="http://webpack.github.io/docs/">Webpack</a>, <a href="https://babeljs.io/docs/en/v7-migration">Babel7</a>, <a href="https://material-ui.com/">Material-UI</a> and <a href="https://github.com/gaearon/react-hot-loader">React Hot Loader</a> for rapid application development (HMR).
 </p>
-
-<div align="center">
-  <a href="https://facebook.github.io/react/"><img src="./internals/img/react-padded-90.png" /></a>
-  <a href="http://redux.js.org/"><img src="./internals/img/redux-padded-90.png" /></a>
-</div>
